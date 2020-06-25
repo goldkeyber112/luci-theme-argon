@@ -1514,7 +1514,7 @@ footer {
     padding: 1rem;
     color: #aaa;
     font-size: 0.8rem;
-    text-shadow: 0px 0px 2px #BBB;
+    text-shadow: 0px 0px 0px #BBB;
 }
 
 footer>a {
@@ -2650,7 +2650,7 @@ select[multiple="multiple"] {
 .cbi-value-description {
     display: table-cell;
     line-height: 1.25;
-
+    font-size: small;
 }
 
 div.cbi-value-field {}
@@ -2678,7 +2678,7 @@ div.cbi-value-field {}
     padding: .7rem;
     padding-left: 0;
     width: 23rem;
-    float: left;
+    /* float: left; */
     text-align: right;
     display: table-cell;
 }
@@ -3549,7 +3549,7 @@ header>.container>.pull-right>* {
 
     .cbi-tabmenu>li>a,
     .tabs>li>a {
-        padding: 0.2rem 0.5rem;
+        padding: 0.0rem 0.5rem;
     }
 
     .panel-title {
