@@ -2682,7 +2682,7 @@ select[multiple="multiple"] {
     padding: .7rem;
     padding-left: 0;
     width: 23rem;
-    float: left;
+    /* float: left; */
     text-align: right;
     display: table-cell;
 }
