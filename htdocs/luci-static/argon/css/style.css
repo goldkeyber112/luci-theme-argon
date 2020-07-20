@@ -3430,8 +3430,8 @@ header>.container>.pull-right>* {
 }
 
 .cbi-section em {
-
-    padding: 0rem 1.5rem;
+    /* padding: 0rem 1.5rem; */
+    font-style: normal;
     font-size: 0.7rem;
     font-weight: 600;
     color: #525f7f;
