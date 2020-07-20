@@ -3985,7 +3985,7 @@ header>.container>.pull-right>* {
     table>tbody>tr>td,
     table>tfoot>tr>td,
     table>thead>tr>td {
-        border-top: 1px solid #252526;
+        border-top: 1px solid #131313;
     }
 
     #swaptotal>div>div,
@@ -4010,7 +4010,7 @@ header>.container>.pull-right>* {
     a:-webkit-any-link {
         color: -webkit-link;
         cursor: pointer;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         color: #ccc;
     }
 
