@@ -738,7 +738,7 @@ td>table>tbody>tr>td,
 }
 
 .cbi-page-actions {
-    border-top: 1px solid #eee;
+    border-top: 0px solid #eee;
     padding-top: 1rem;
     text-align: right;
 }
@@ -4018,8 +4018,8 @@ header>.container>.pull-right>* {
     table>tfoot>tr>th,
     table>thead>tr>th {
 
-        background-color: #252526;
-        border-bottom: black 1px solid !important;
+        background-color: #171717;
+        border-bottom: #131313 1px solid !important;
     }
 
     .cbi-rowstyle-2 {
@@ -4067,7 +4067,7 @@ header>.container>.pull-right>* {
     }
 
     .cbi-page-actions {
-        border-top: 1px solid #000;
+        border-top: 0px solid #131313;
     }
 
     #iwsvg,
