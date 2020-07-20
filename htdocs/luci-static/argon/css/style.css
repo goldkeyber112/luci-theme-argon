@@ -738,7 +738,7 @@ td>table>tbody>tr>td,
 }
 
 .cbi-page-actions {
-    border-top: 0px solid #eee;
+    border-top: 1px solid #eee;
     padding-top: 1rem;
     text-align: right;
 }
@@ -4067,7 +4067,7 @@ header>.container>.pull-right>* {
     }
 
     .cbi-page-actions {
-        border-top: 0px solid #131313;
+        border-top: 1px solid #131313;
     }
 
     #iwsvg,
