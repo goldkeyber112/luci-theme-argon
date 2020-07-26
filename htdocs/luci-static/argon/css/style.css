@@ -258,7 +258,7 @@ body {
 .cbi-button-down,
 .main>.loading {
 
-    background: linear-gradient(87deg, #5e72e4 0, #5e72e4 100%) !important;
+    background: #5e72e4 !important;
 }
 
 .sk-folding-cube {
@@ -417,7 +417,7 @@ hr {
 
 
 footer>a {
-    color: #aaa;
+    color: #5d72e4;
     text-decoration: none;
 }
 
@@ -477,6 +477,7 @@ footer>a {
 .pull-right {
     float: right;
     margin-top: 0.5rem;
+    margin-right: 1rem;
 }
 
 .pull-left {
@@ -517,7 +518,7 @@ footer>a {
 }
 
 #maincontent>.container>p {
-    color: #32325d;
+    color: #cccccc;
 }
 
 li {
@@ -553,7 +554,7 @@ fieldset>fieldset {
 #memtotal>div {
     width: 100% !important;
     height: 1.6rem !important;
-    line-height: 1.6rem;
+    line-height: 1.4rem;
     border-radius: .25rem;
 }
 
@@ -624,8 +625,8 @@ td>table>tbody>tr>td,
 .cbi-button-link,
 .cbi-button-neutral {
     color: #fff !important;
-    border: 1px solid #f0ad4e !important;
-    background-color: #f0ad4e !important;
+    background-color: #dbab09 !important;
+     /* border: 1px solid #ffd33d !important; */
 }
 
 .cbi-button-edit,
@@ -642,7 +643,7 @@ td>table>tbody>tr>td,
 .cbi-button-save,
 .cbi-button-positive {
     color: #46b8da;
-    border: 1px solid #46b8da;
+    border: none;
     background-color: transparent;
 }
 
@@ -651,7 +652,7 @@ td>table>tbody>tr>td,
 .cbi-button-reset,
 .cbi-button-negative {
     color: #fff !important;
-    border: 1px solid #d43f3a !important;
+    border: none;
     background-color: #fb6340 !important;
 }
 
@@ -893,7 +894,9 @@ input[type="checkbox"]:checked {
 ul li .cbi-input-checkbox {
     margin: 0.5rem 0.25rem !important;
 }
-
+#detail-bubble > div {
+    box-shadow: 3px 3px 5px #ccc;
+}
 .cbi-input-radio {
     appearance: none !important;
     -webkit-appearance: none !important;
@@ -1194,11 +1197,24 @@ input[name="nslookup"] {
 .node-status-processes>.main .table .tr .td:nth-child(3) {
     white-space: normal;
 }
-
 .node-status-iptables>.main div>.cbi-map>form {
     margin: 0.1rem 1.5rem 0 0
 }
 
+/* fix package manager */
+
+#maincontent > div > div > form > fieldset > fieldset:nth-child(1) > div.cbi-value.cbi-value-last > div {
+    width: 100% !important;
+    margin: 0.5rem 0 !important;
+    height: 1.4rem !important;
+    border: 1px solid #999999 !important;
+    border-radius: 0.2rem;
+    background-color: transparent !important;
+}
+#maincontent > div > div > form > fieldset > fieldset:nth-child(1) > div.cbi-value.cbi-value-last > div > div {
+    background-color: #5d72e4 !important;
+    border-right: none !important;
+}
 /* fix system reboot */
 
 .node-system-reboot>.main>.main-right p,
@@ -1295,8 +1311,21 @@ body.lang_pl.node-main-login .cbi-value-title {
     margin: 2rem;
     line-height: 300%;
 }
-
-
+/* ssr plus+ fix */
+#google-status > font,
+#baidu-status > font,
+#gfw_data-status > font,
+#ip_data-status > font,
+#nfip_data-status > font,
+#ad_data-status > font,
+#check_port-status > font
+ {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+#shadowsocksr_status > em > b > font {
+    font-size: 1rem;
+}
 
 
 
@@ -1506,7 +1535,7 @@ header {
 header::after {
     content: "";
     position: absolute;
-    height: 2.4rem;
+    height: 50%;
     width: 100%;
     background-color: #5e72e4 !important;
 }
@@ -1518,13 +1547,13 @@ header::after {
 footer {
     text-align: right;
     padding: 1rem;
-    color: #aaa;
+    margin-right: 1rem;
+    color: #5d72e4;
     font-size: 0.8rem;
-    text-shadow: 0px 0px 2px #BBB;
 }
 
 footer>a {
-    color: #aaa;
+    color: #5d72e4;
     text-decoration: none;
 }
 
@@ -1894,7 +1923,7 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 
 .main>.main-left>.nav>.slide>.menu[data-title=Services]:before {
     content: "\e909";
-    color: #11cdef !important;
+    color: #28a745 !important;
 }
 
 .main>.main-left>.nav>.slide>.menu[data-title=NAS]:before {
@@ -1909,12 +1938,12 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 
 .main>.main-left>.nav>.slide>.menu[data-title=Network]:before {
     content: "\e908";
-    color: #8965e0 !important;
+    color: #0366d6 !important;
 }
 
 .main>.main-left>.nav>.slide>.menu[data-title=Bandwidth_Monitor]:before {
     content: "\e90d";
-    color: #2dce89 !important;
+    color: #f66a0a !important;
 }
 
 .main>.main-left>.nav>.slide>.menu[data-title=Docker]:before {
@@ -1929,7 +1958,7 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 
 .main>.main-left>.nav>.slide>.menu[data-title=Logout]:before {
     content: "\e907";
-    color: #e45ea8 !important;
+    color: #ea4aaa !important;
 }
 
 .main>.main-left>.nav>.slide>.menu:after {
@@ -2031,7 +2060,7 @@ li {
 }
 
 #maincontent>.container {
-    margin: 0 2rem 1rem 2rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 h1 {
@@ -2277,7 +2306,7 @@ form.inline+form.inline,
 .cbi-input-remove {
 
     color: #fff !important;
-    background-color: #f0ad4e !important;
+    background-color: #f66a0a !important;
     border-color: #eea236 !important;
 }
 
@@ -2290,7 +2319,7 @@ form.inline+form.inline,
 .cbi-button-reload {
 
     color: #fff !important;
-    background-color: #337ab7 !important;
+    background-color: #28a745 !important;
     border-color: #2e6da4 !important;
 }
 
@@ -2339,8 +2368,8 @@ form.inline+form.inline,
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     display: inline-block;
-    padding: 0.5rem 0rem;
-    border-bottom: 0.18751rem solid rgba(0, 0, 0, 0);
+    padding: 0.5rem 0;
+    /* border-bottom: 0.18751rem solid rgba(0, 0, 0, 0); */
 }
 
 .cbi-tabmenu>li {
@@ -2599,7 +2628,7 @@ select[multiple="multiple"] {
 
 .cbi-tabmenu {
     color: white;
-    padding: 0.5rem 1rem 0 1rem;
+    padding: 0.325rem 1rem 0 1rem;
 }
 
 .cbi-tabmenu>li:hover {
@@ -2612,11 +2641,11 @@ select[multiple="multiple"] {
 
 .cbi-tabmenu>li[class~="cbi-tab"] {
 
-    background-color: #fb6340;
+    background-color: #5d72e4;
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"]>a {
-    color: #fff;
+    color: #ccc;
 }
 
 
@@ -2848,6 +2877,7 @@ td>.ifacebadge {
     padding: 0.5rem 1rem;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
     background: #fff;
+    border-radius: 0.2rem;
 }
 
 td>.ifacebadge,
@@ -2960,12 +2990,14 @@ td>.ifacebadge,
     padding: 0.2rem 0.5rem;
     display: inline-block;
     cursor: pointer;
+    border-radius: 0.2rem;
 }
 
 .zonebadge>.ifacebadge {
     padding: 0.2rem 1rem;
     margin: 0.3rem;
     border: 1px solid #6C6C6C;
+    border-radius: 0.2rem;
 }
 
 .zonebadge>input[type="text"] {
@@ -3352,11 +3384,10 @@ header>.container>.pull-right>* {
     bottom: 0;
     position: absolute;
     width: 100%;
-    color: #fff;
 }
 
 .node-main-login footer>a {
-    color: #fff;
+    color: #5e72e4;
 }
 
 /* fix status overview */
@@ -3688,7 +3719,7 @@ header>.container>.pull-right>* {
     }
 
     #maincontent>.container {
-        margin: 0 1rem 1.5rem 1rem;
+        margin: 0 0.5rem 0.5rem 0.5rem;
     }
 
     .main>.main-left>.nav>.slide>.menu {
@@ -3781,11 +3812,8 @@ header>.container>.pull-right>* {
         padding: 1rem 1rem;
         font-size: 12px;
     }
-
-
-    h2 {
-        font-size: 1.5rem;
-
+    .footer {
+        color: darkslateblue;
     }
 
     .node-main-login>.main .container h2 {
@@ -3854,7 +3882,7 @@ header>.container>.pull-right>* {
 }
 
 
-
+/* dark mode */
 @media (prefers-color-scheme: dark) {
     body {
         background: #1e1e1e;
@@ -3885,7 +3913,9 @@ header>.container>.pull-right>* {
     .node-main-login .errorbox {
         background-color: #3d0303 !important;
     }
-
+    .node-main-login footer>a {
+        color: darkslateblue;
+    }
     input:-webkit-autofill {
         background-color: #3c3c3c !important;
     }
@@ -3909,7 +3939,7 @@ header>.container>.pull-right>* {
     }
 
     .cbi-section em {
-        color: darkslateblue;
+        color: #ccc;
     }
 
     .main>.main-left>.nav>.slide>.slide-menu>.active>a {
@@ -3941,11 +3971,11 @@ header>.container>.pull-right>* {
     }
 
     .bg-primary {
-        background-color: #1e1e1e !important;
+        background-color: darkslateblue !important;
     }
 
     header::after {
-        background-color: #1e1e1e !important;
+        background-color: darkslateblue !important;
     }
 
     .main-right {
@@ -3994,7 +4024,7 @@ header>.container>.pull-right>* {
     #membuff>div>div,
     #conns>div>div,
     #memtotal>div>div {
-        background-color: #32325d !important;
+        background-color: darkslateblue !important;
     }
 
     #swaptotal>div>div>div>small,
@@ -4006,14 +4036,17 @@ header>.container>.pull-right>* {
 
         color: #ccc !important;
     }
-
+    footer {
+        color: darkslateblue;
+    }
     a:-webkit-any-link {
         color: -webkit-link;
         cursor: pointer;
-        /* text-decoration: underline; */
-        color: #aaa;
+        color: darkslateblue;
     }
-
+    #wan4_i > small:last-child > a {
+        color: #ccc;
+    }
     table>tbody>tr>th,
     table>tfoot>tr>th,
     table>thead>tr>th {
@@ -4048,7 +4081,7 @@ header>.container>.pull-right>* {
     }
 
     abbr {
-        color: #5e72e4;
+        color: #cccccc;
 
     }
 
@@ -4067,7 +4100,7 @@ header>.container>.pull-right>* {
     }
 
     .cbi-page-actions {
-        border-top: 0px solid #131313;
+        /* border-top: 0px solid #131313; */
     }
 
     #iwsvg,
@@ -4096,7 +4129,7 @@ header>.container>.pull-right>* {
     }
 
     .cbi-tabmenu>li[class~="cbi-tab"] {
-        background-color: darkorange;
+        background-color: darkslateblue;
     }
 
     .cbi-tabcontainer>.cbi-value:nth-of-type(2n) {
@@ -4236,8 +4269,7 @@ header>.container>.pull-right>* {
 
     #xhr_poll_status>.label.success {
         color: #ccc !important;
-
-        background-color: darkolivegreen !important;
+        background-color: #333333 !important;
     }
 
     .notice {
@@ -4251,14 +4283,14 @@ header>.container>.pull-right>* {
     .cbi-button-find,
     .cbi-input-reload,
     .cbi-button-reload {
-        background-color: darkseagreen !important;
+        background-color: #176f2c !important;
         border-color: darkseagreen !important;
     }
 
     .cbi-button-reset,
     .cbi-input-remove {
         color: #fff !important;
-        background-color: darkorange !important;
+        background-color: #d15704 !important;
         border-color: darkorange !important;
     }
 
@@ -4268,11 +4300,11 @@ header>.container>.pull-right>* {
     .cbi-button-apply.important,
     .cbi-button-reload.important,
     .cbi-button-action.important {
-        border: 1px darkslateblue solid !important;
+        /* border: 1px darkslateblue solid !important; */
     }
 
     .tabs>li[class~="active"]>a {
-        color: darkslateblue;
+        color: #ccc;
     }
 
     .tabs>li[class~="active"],
@@ -4290,10 +4322,41 @@ header>.container>.pull-right>* {
         border-radius: 2px !important;
         padding: 5px !important;
         background: #252525 !important;
+        box-shadow: 3px 3px 5px black;
     }
-
+    /* fix package manager */
+    #maincontent > div > div > form > fieldset > fieldset:nth-child(1) > div.cbi-value.cbi-value-last > div > div {
+        background-color: darkslateblue !important;
+}
+.cbi-button-up,
+.cbi-button-down,
+.main>.loading {
+    
+    background: darkslateblue !important;
+}
+.cbi-section-remove>.cbi-button, .cbi-button-remove {
+    background-color: #b31d28 !important;
+}
+.cbi-button-find,
+.cbi-button-link,
+.cbi-button-neutral {
+    background-color: #b08800 !important;
+}
+#cbi-dhcp-lan-leasetime > div > div > code {
+    color: #ccc;
+}
+#cbi-network-lan-_fwzone > div > ul > li:nth-child(3) > div > em,
+#cbi-network-wan-_fwzone > div > ul > li:nth-child(3) > div > em {
+    color: #3c3c3c !important;
 }
 
+/* fix nlbw/display*/
+#bubble-arrow{
+    background: #252525 !important;
+}
+#detail-bubble .head .dismiss {
+    color: #cccccc !important;
+}
 @media (prefers-color-scheme: dark) and (max-width: 480px) {
     .node-status-iptables>.main div>.cbi-map>form {
         background-color: #1e1e1e;
