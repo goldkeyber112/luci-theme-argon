@@ -4419,6 +4419,9 @@ body > div > div.main-right > header > div > div > div > a {
 #maincontent>.container>p {
     color: #ccc !important;
 }
+.errorbox, .alert-message {
+    background-color: #333 !important;
+}
 
 .cbi-input-reset {
     background-color: #cb2431 !important;
