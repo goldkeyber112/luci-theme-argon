@@ -665,6 +665,14 @@ td>table>tbody>tr>td,
     text-decoration: none;
 }
 
+/* web-link */
+a:-webkit-any-link {
+    color: #5d72e4;
+}
+span:target {
+    color: #5d72e4 !important;
+}
+
 /* table */
 
 
@@ -1039,10 +1047,7 @@ ul li .cbi-input-checkbox {
 }
 
 .cbi-section-create {
-    margin: 0;
-    display: inline-flex;
-    align-items: center;
-    margin: 1rem;
+    align-items: center !important;
 }
 
 .cbi-section-create>* {
@@ -1056,8 +1061,8 @@ ul li .cbi-input-checkbox {
 div.cbi-value var,
 td.cbi-value-field var,
 .td.cbi-value-field var {
-    font-style: italic;
-    color: #0069D6;
+    font-style: normal;
+    color: #5d72e4;
 }
 
 small {
@@ -1318,7 +1323,7 @@ input[name="nslookup"] {
 #cbi-firewall-redirect table input[type="text"],
 #cbi-network-switch_vlan table input[type="text"],
 #cbi-firewall-zone table input[type="text"] {
-    width: 5rem;
+    width: 12rem;
 }
 
 #cbi-firewall-redirect table select,
@@ -1490,7 +1495,7 @@ body.lang_pl.node-main-login .cbi-value-title {
 
 .cbi-rowstyle-2 .cbi-button-up,
 .cbi-rowstyle-2 .cbi-button-down {
-    background-color: #FFF !important;
+    background-color: #5d72e4 !important;
 }
 
 
@@ -3095,8 +3100,8 @@ td>.ifacebadge,
 
 div.cbi-value var,
 td.cbi-value-field var {
-    font-style: italic;
-    color: #0069D6;
+    font-style: normal;
+    color: #5d72e4;
 }
 
 small {
@@ -3504,7 +3509,6 @@ div.cbi-tab-descr {
 }
 
 .cbi-section em {
-    /* padding: 0rem 1.5rem; */
     font-style: normal;
     font-size: 0.7rem;
     font-weight: 600;
@@ -4100,6 +4104,10 @@ div.cbi-tab-descr {
         color: #ccc;
     }
 
+    span:target {
+        color: darkslateblue !important;
+    }
+
     table>tbody>tr>th,
     table>tfoot>tr>th,
     table>thead>tr>th {
@@ -4275,7 +4283,7 @@ div.cbi-tab-descr {
 
     div.cbi-value var,
     td.cbi-value-field var {
-        color: #5e72e4;
+        color: #fff;
     }
 
     #diag-rc-output>pre {
@@ -4383,6 +4391,10 @@ div.cbi-tab-descr {
 .cbi-button-down,
 .main>.loading {
     
+    background: darkslateblue !important;
+}
+.cbi-rowstyle-2 .cbi-button-up,
+.cbi-rowstyle-2 .cbi-button-down {
     background: darkslateblue !important;
 }
 .cbi-section-remove>.cbi-button, .cbi-button-remove {
