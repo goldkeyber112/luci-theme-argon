@@ -1212,6 +1212,7 @@ input[name="nslookup"] {
     color: #fff !important;
 }
 
+/* fix status realtime */
 #maincontent > div.container:first-child > table:last-child {
     box-shadow: 0 4px 8px rgba(0, 0, 0, .03);
     border-radius: 0.375rem;
@@ -1225,6 +1226,15 @@ input[name="nslookup"] {
 }
 .node-status-iptables>.main div>.cbi-map>form {
     margin: 0.1rem 1.5rem 0 0
+}
+/* fix dropbear */
+#cbi-dropbear-_keys > td.cbi-value-field {
+    padding: 0 !important;
+}
+
+/* fix KMS server */
+#cbi-vlmcsd-config-config > label.cbi-value-title:first-child {
+    display: none !important;
 }
 
 /* fix package manager */
@@ -1509,7 +1519,6 @@ input {
     box-shadow: 0 3px 2px rgba(233, 236, 239, .05);
     outline: none;
     transition: box-shadow .15s ease;
-    margin: 1rem;
 }
 
 select:not([multiple="multiple"]):focus,
@@ -2178,8 +2187,8 @@ fieldset.cbi-section p {
     display: block;
     margin-bottom: 0;
     padding: 0.8755rem 1.5rem;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     margin-bottom: 0rem;
     letter-spacing: 0.1rem;
     color: #32325d;
@@ -2335,7 +2344,6 @@ form.inline+form.inline,
 
 .cbi-input-find,
 .cbi-input-save,
-.cbi-button-add,
 .cbi-button-save,
 .cbi-button-find,
 .cbi-input-reload,
@@ -2344,6 +2352,13 @@ form.inline+form.inline,
     color: #fff !important;
     background-color: #28a745 !important;
     border-color: #2e6da4 !important;
+}
+
+.cbi-button-add {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #2e6da4 !important;
+    margin: 0.5rem !important;
 }
 
 .cbi-value-field .cbi-input-apply,
@@ -2668,7 +2683,7 @@ select[multiple="multiple"] {
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"]>a {
-    color: #ccc;
+    color: #ffffff;
 }
 
 
@@ -2717,7 +2732,6 @@ select[multiple="multiple"] {
     display: table-cell;
     line-height: 1.6;
     font-size: 0.875rem;
-
 }
 
 
@@ -2744,7 +2758,7 @@ select[multiple="multiple"] {
     padding: .7rem;
     padding-left: 0;
     width: 23rem;
-    /* float: left; */
+    float: none;
     text-align: right;
     display: table-cell;
 }
@@ -3577,6 +3591,7 @@ div.cbi-tab-descr {
 #maincontent > div > div > form > input:nth-child(4) {
     background-color: #5d72e4;
     margin-top: 5px;
+    margin-right: 5px;
     color: #fff;
 }
 
@@ -3914,7 +3929,7 @@ div.cbi-tab-descr {
     }
 
     .node-status-iptables>.main div>.cbi-map>form input[type="submit"]+input[type="submit"] {
-        margin-top: 1rem;
+        margin-top: 1rem !important;
     }
 }
 
@@ -4088,9 +4103,7 @@ div.cbi-tab-descr {
     table>tbody>tr>th,
     table>tfoot>tr>th,
     table>thead>tr>th {
-
-        background-color: #191919;
-        border-bottom: #191919 1px solid !important;
+        background-color: rgba(0, 0, 0, .05);
     }
 
     .cbi-rowstyle-2 {
@@ -4098,7 +4111,7 @@ div.cbi-tab-descr {
     }
 
     .cbi-rowstyle-1 {
-        background-color: #252526;
+        background-color: #1e1e1e;
     }
 
     .cbi-section>h3:first-child,
@@ -4314,9 +4327,9 @@ div.cbi-tab-descr {
         background-color: darkslateblue !important;
     }
 
+    .cbi-button-add,
     .cbi-input-find,
     .cbi-input-save,
-    .cbi-button-add,
     .cbi-button-save,
     .cbi-button-find,
     .cbi-input-reload,
