@@ -27,15 +27,15 @@ opkg install luci-theme-argon-1.5.1_1.5.1-01-20200622_all.ipk
 ```
 ## Screenshots
 
-#Light
-![avatar](/screenshots/mobile-iPhone X.png)
-![tablet](/screenshots/tablet-iPad Air 2.png)
-![pc](/screenshots/pc-Surface Book.png)
+#Light  
+![avatar](/screenshots/mobile-iPhone X.png)  
+![tablet](/screenshots/tablet-iPad Air 2.png)  
+![pc](/screenshots/pc-Surface Book.png)  
 
-#Dark
-![mobile_dark](/screenshots/mobile_dark-iPhone X.png)
-![tablet_dark](/screenshots/tablet_dark-iPad Air 2.png)
-![pc_dark](/screenshots/pc_dark-Surface Book.png)
+#Dark  
+![mobile_dark](/screenshots/mobile_dark-iPhone X.png)  
+![tablet_dark](/screenshots/tablet_dark-iPad Air 2.png)  
+![pc_dark](/screenshots/pc_dark-Surface Book.png)  
 
 
 ## Thanks to 
