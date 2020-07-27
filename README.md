@@ -25,7 +25,17 @@ make -j1 V=s
 wget --no-check-certificate https://github.com/goldkeyber112/luci-theme-argon/releases/download/1.5.1/luci-theme-argon-1.5.1_1.5.1-01-20200622_all.ipk
 opkg install luci-theme-argon-1.5.1_1.5.1-01-20200622_all.ipk
 ```
+## More Screenshots
 
+#Light
+![](/screenshots/mobile-iPhone X.png)
+![](/screenshots/tablet-iPad Air 2.png)
+![](/screenshots/pc-Surface Book.png)
+
+#Dark
+![](/screenshots/mobile_dark-iPhone X.png)
+![](/screenshots/tablet_dark-iPad Air 2.png)
+![](/screenshots/pc_dark-Surface Book.png)
 
 
 ## Thanks to 
