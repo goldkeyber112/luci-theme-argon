@@ -27,15 +27,15 @@ opkg install luci-theme-argon-1.5.1_1.5.1-01-20200622_all.ipk
 ```
 ## Screenshots
 
-#Light  
-![mobile](/screenshots/mobile-iPhone20%X.png)  
-![tablet](/screenshots/tablet-iPad Air 2.png)  
-![pc](/screenshots/pc-Surface Book.png)  
+### Light  
+![mobile](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/mobile-iPhone%20X.png)  
+![tablet](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/tablet-iPad%20Air%202.png)  
+![pc](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/pc-Surface%20Book.png)  
 
-#Dark  
-![mobile_dark](/screenshots/mobile_dark-iPhone X.png)  
-![tablet_dark](/screenshots/tablet_dark-iPad Air 2.png)  
-![pc_dark](/screenshots/pc_dark-Surface Book.png)  
+### Dark  
+![mobile_dark](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/mobile_dark-iPhone%20X.png)  
+![tablet_dark](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/tablet_dark-iPad%20Air%202.png)  
+![pc_dark](https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/pc_dark-Surface%20Book.png)  
 
 
 ## Thanks to 
