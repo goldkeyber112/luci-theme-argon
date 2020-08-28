@@ -1663,10 +1663,14 @@ fieldset[id^="cbi-apply-"] {
     box-sizing: border-box;
     font-size: 1.2rem;
     text-align: center;
+    color: #ffffff;
+    background-color: #5e72e4;
 }
 
 [id^="cbi-apply-"]>.panel-title {
     border-bottom: none;
+    color: #ffffff;
+    background-color: #5e72e4;
 }
 
 [id^="cbi-apply-"]>[id^="cbi-apply-"] {
@@ -4373,7 +4377,11 @@ div.cbi-tab-descr {
     }
 
     fieldset[id^="cbi-apply-"] {
-        background-color: #333333;
+        background-color: #483d8b;
+    }
+
+    [id^="cbi-apply-"]>.panel-title {
+        background-color: #483d8b;
     }
 
     #detail-bubble>div {
