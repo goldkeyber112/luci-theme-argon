@@ -29,13 +29,10 @@ opkg install luci-theme-argon-1.5.1_1.5.1-01-20200622_all.ipk
 
 ### Light  
 <img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/mobile-iPhone%20X.png" width="50%">
-<img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/tablet-iPad%20Air%202.png" width="80%">
-<img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/pc-Macbook%20Pro%202016.png" width="100%">
+
 
 ### Dark  
 <img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/mobile_dark-iPhone%20X.png" width="50%">
-<img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/tablet_dark-iPad%20Air%202.png" width="80%">
-<img src="https://github.com/goldkeyber112/luci-theme-argon/raw/18.06/screenshots/pc_dark-Macbook%20Pro%202016.png" width="100%">
 
 
 ## Thanks to 
