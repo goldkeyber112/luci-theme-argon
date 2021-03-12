@@ -3260,7 +3260,7 @@ div.cbi-tab-descr {
     margin-top: 2rem !important;
     background-color: #f7fafc !important;
     border-radius: .375rem;
-    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    box-shadow: 0 0 5px 0 rgb(12 12 12);
     text-align: left;
 }
 
